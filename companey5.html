@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<style>
+  h1 {color: rgb(157, 5, 111);background-color: rgb(192, 192, 112); font-size: 55px;font-family:Georgia, 'Times New Roman', Times, serif;}
+  img {padding: 20px;}
+  body {background-color: rgb(249, 222, 227);}
+
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(248, 127, 103);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #e7aaaa;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+h2{ color:rgb(56, 136, 3); text-align: center;font-size: 37px;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+h3 {color:blue;font-size: 25px;margin: 30px;}
+h4 {color:blue;font-size: 25px;margin: 30px;}
+p  {color: rgb(141, 4, 4);font-size: 20px;font-family:Georgia, 'Times New Roman', Times, serif;}
+li {padding: 5px;}
+.copy {background-color: #717171;font-size: 20px;color: orange;}
+.cat li{margin: 10px; color: rgb(252, 100, 5);font-weight: bold;float: none;}
+
+</style>
+</head>
+<body>
+
+
+  <ul>
+    <li><a href="file:///C:/Users/vasu/OneDrive/Desktop/constructionproject.html">Home</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Companies</a>
+      <div class="dropdown-content">
+        <a href="file:///C:/Users/vasu/OneDrive/Desktop/companey1.html">ARK</a>
+        <a href="file:///C:/Users/vasu/OneDrive/Desktop/companey2.html">Shanta Sri Rsm</a>
+        <a href="file:///C:/Users/vasu/OneDrive/Desktop/companey3.html">B L KASHYAP</a>
+        <a href="file:///C:/Users/vasu/OneDrive/Desktop/companey4.html">APR GROUP</a>
+        <a href="file:///C:/Users/vasu/OneDrive/Desktop/companey5.html">PVR</a>
+        </div>
+        <li><a href="file:///C:/Users/vasu/OneDrive/Desktop/contactpage.html">Contact</a></li>
+      
+    </li>
+  </ul>
+
+  
+<center><img src="https://pvrdevelopers.com/wp-content/uploads/thegem-logos/logo_ff82ca053f5e184c31dc64af0e37e3b9_2x.png" height="20%" width="30%"></center> 
+<center><h1>Your Luxury Apartment Awaiting You </h1></center><hr>
+
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="https://pvrdevelopers.com/wp-content/uploads/2021/06/cp-ul-6.jpg" style="height: 600px; width:1225px">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="https://pvrdevelopers.com/wp-content/uploads/2021/08/bhuvi-2.jpg" style="height: 600px; width:1225px">
+     
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="https://pvrdevelopers.com/wp-content/uploads/2021/06/Kshetra-7.jpg" style="height: 600px; width:1225px">
+      
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="https://pvrdevelopers.com/wp-content/uploads/2021/06/Anmol-6.jpg" style="height: 600px; width:1225px">
+        
+      </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <br><br><br><h2><ins> CREATING PERFECTION</ins></h2>
+    <blockquote><p> PVR DEVELOPERS INDIA PVT LTD.,over the years has evolved into a Re-puted & Reliable 
+        group that has sought to Thrive year on year through its Focused Approach, Continuous Efforts, 
+        Timely Execution & Delivery of our Projects as Promised to our Clients & Stake Holders. Our Idea 
+        is to Churn out Abodes & Landmarks of Highest Quality with Thoughtful & Practical Communities & 
+        Spaces that People Enjoy through their Lives.</p></blockquote>
+    <h3><ins>ABOUT PVR GROUP</ins> :</h3>
+    <blockquote><p>Mr. Venkata Ramana Parimi (MBA) began as a Software Engineer & Architect in an MNC & 
+        after a successful stint of over 9 years with Clarixxon Technologies, ADP India, Satyam Computers 
+        & Microsoft India – GDCI. An SME on Single Tech Platforms, Microsoft SQL Server as Product 
+        Architect, Support Head, and Tech Configuration divisions. In 2007, his calling finally brought 
+        him to the cusp of making a crucial decision & from there on rest is for all of us to see. First
+         began with Cyber Constructions & Developers India Private Limited A Construction & Real estate 
+         Organization. Since 2007 the PVR Team has accomplished massive success in Construction of over 
+         16 residential Apartment & Plotting Projects in around Hyderabad.</p></blockquote>
+    <h4><ins>Amenities</ins> :</h4>
+    <div class="cat li">
+        <ol>
+            <li>2BHK, 2.5BHK & 3BHK</li>
+            <li>1060sqft & 1096sqft</li>
+            <li>Luxurious Clubhouse</li>
+            <li>IGBC – Gold rated project</li>
+            <li>Swimming Pool</li>
+            <li>Shopping Mall</li>
+            <li>Hospital</li>
+            <li>Badminton Court</li>
+        </ol>
+    </div>
+
+    <hr><br><br><center><footer>
+      <p class="copy">Copyright &copy;2023 Top 5 Companies in Hyderabad. All Rights Reserved.</p>
+    </footer></center>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+</body>
+</html
